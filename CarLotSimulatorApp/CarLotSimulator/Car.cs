@@ -28,7 +28,7 @@ namespace CarLotSimulator
             Year = year;
             Make = make;
             Model = model;
-            isDriveable = true;
+            IsDriveable = isDriveable;
             carLotModifier = carLot;
 
             if (carLot != null)

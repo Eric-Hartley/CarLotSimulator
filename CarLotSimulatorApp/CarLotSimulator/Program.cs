@@ -20,16 +20,13 @@ namespace CarLotSimulator
             //Call each of the methods for each car
 
             var beamer = new Car(2015, "BMW", "335i", true, carLot);
-            beamer.MakeEngineNoise("stututuu");
-            beamer.MakeHonkNoise("beep bop");
+            
 
             var supra = new Car(1996, "Toyota", "Supra", true, carLot);
-            supra.MakeEngineNoise("stututuu");
-            supra.MakeHonkNoise("beep beep");
+            
 
             var wrx = new Car(2018, "Subaru", "WRX", true, carLot);
-            wrx.MakeEngineNoise("stututuu");
-            wrx.MakeHonkNoise("beep boop");
+            
 
             //*************BONUS*************//
 

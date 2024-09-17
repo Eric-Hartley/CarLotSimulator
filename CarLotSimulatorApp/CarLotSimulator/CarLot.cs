@@ -23,7 +23,23 @@ namespace CarLotSimulator
         {
             foreach (var car in Cars)
             {
-                Console.WriteLine($"{car.Year} {car.Make} {car.Model}");
+                Console.WriteLine($"{car.Year} {car.Make} {car.Model} \nDriveable: {car.IsDriveable}");
+                if (car.Make.ToUpper() == "BMW".ToUpper())
+                {
+                    car.MakeEngineNoise("stututuu");
+                    car.MakeHonkNoise("beep bop");
+                }
+                if (car.Make.ToUpper() == "Subaru".ToUpper())
+                {
+                    car.MakeEngineNoise("stututuu");
+                    car.MakeHonkNoise("beep boop");
+                }
+                if(car.Make.ToUpper() == "Toyota".ToUpper())
+                {
+                    car.MakeEngineNoise("stututuu");
+                    car.MakeHonkNoise("beep beep");
+                }
+                
             }
         }
         
