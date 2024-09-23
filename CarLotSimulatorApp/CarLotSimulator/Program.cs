@@ -43,6 +43,7 @@ namespace CarLotSimulator
             
             
             carLot.DisplayCars();
+            Console.WriteLine("Number of Cars: " + Car.NumberOfCars);
 
 
         }
